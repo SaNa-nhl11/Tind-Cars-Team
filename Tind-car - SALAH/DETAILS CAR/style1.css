@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap");
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #000000cc;
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+}
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+.container {
+	width: 100%;
+
+}
+.containerfirst .close {
+	position: relative;
+	left: 95.75%;
+	right: 60%;
+	top:-5.5%;
+	transition: all 200ms;
+	font-size: 35px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FF204E;
+}
+a{
+    text-decoration: none;
+}
+.containerfirst {
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+    height: 100%;
+}
+.checkoutLayout{
+    width: 500px;
+    align-items: center;
+
+    padding: 0px;
+    margin-top: 50px;
+}
+.checkoutLayout .right {
+    background-color: #FBF9F1;
+    border-radius: 30px;
+    padding: 20px;
+    padding-bottom: 25px;
+    color: #000000;
+    font-family: "jost",sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.checkoutLayout .right .form{
+    display: grid;
+    gap: 20px;
+    border-bottom: 2px solid #FF204E;
+    border-top: 2px solid #FF204E;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.checkoutLayout .form input, 
+.checkoutLayout .form select
+{
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 10px;
+    border:none;
+    background-color: #E3E1D9;
+    opacity: 100%;
+    color: #000000;
+    
+}
+input:focus, textarea:focus {
+    outline: none;
+}
+.checkoutLayout .right .return .row{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10px;
+}
+.buttonCheckout{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FF204E;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #020101;
+    font-family: 'jost',sans-serif;
+    font-size: 20px;
+}
+
+
+ .btn-box {
+    margin-right: 50px;
+    bottom: 50px;
+    font-family: 'jost',sans-serif;
+    text-align: right;
+    
+   }
+.btn-box a {
+    text-transform: uppercase;
+    text-align: center;
+    width: 135px;
+    font-size: 15px;
+    font-weight: bold;
+    
+  }
+  
+   .btn-box .btn-1 {
+    display: inline-block;
+    padding: 6px 0px;
+    background-color: #FF204E;
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    
+  }
+  
+   .btn-box .btn-1:hover {
+    background-color: transparent;
+    border-color: #FF204E;
+    color: #000000;
+  } 
+.btn-box1 a {
+    text-transform: uppercase;
+    text-align: center;
+    width: 135px;
+    font-size: 15px;
+    font-weight: bold;
+    
+  }
+  
+   .btn-box1 .btn-1{
+    display: inline-block;
+    padding: 6px 0px;
+    background-color: #FF204E;
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    position: absolute;
+    top: 560px;
+    right: 500px;
+    
+  }
+  .btn-box1 {
+    width: 150px;
+    margin-right: 50px;
+    margin-left: 950px;
+    font-family: 'jost',sans-serif;
+    text-align: right;
+    
+   }
+   .btn-box1 .btn-1:hover {
+    background-color: transparent;
+    border-color: #FF204E;
+    color: #000000;
+  }
+  
+
+@media (max-width: 1920px) {
+
+    .checkoutLayout{
+        margin-left: 40%;
+        margin-top: 150px;
+    }
+}
+/*@media (max-width: 1800px) {
+
+    .checkoutLayout{
+        margin-left: 38%;
+    }
+}
+@media (max-width: 1800px) {
+
+    .checkoutLayout{
+        margin-left: 36%;
+    }
+}
+@media (max-width: 1700px) {
+
+    .checkoutLayout{
+        margin-left: 34%;
+    }
+}
+@media (max-width: 1600px) {
+
+    .checkoutLayout{
+        margin-left: 33%;
+    }
+}
+@media (max-width: 1500px) {
+
+    .checkoutLayout{
+        margin-left: 32%;
+    }
+}
+@media (max-width: 1400px) {
+
+    .checkoutLayout{
+        margin-left: 31%;
+    }
+}
+@media (max-width: 1300px) {
+
+    .checkoutLayout{
+        margin-left: 30%;
+    }
+}
+@media (max-width: 1200px) {
+
+    .checkoutLayout{
+        margin-left: 29%;
+    }
+}
+@media (max-width: 1100px) {
+
+    .checkoutLayout{
+        margin-left: 28%;
+    }
+}
+@media (max-width: 1000px) {
+
+    .checkoutLayout{
+        margin-left: 27%;
+    }
+}*/
+@media (min-width: 650px) and (max-width: 1000px){
+    .checkoutLayout{
+        margin-left: 18%;
+        
+    }
+}
+@media (max-width: 650px){
+    .checkoutLayout{
+        margin-left: 14%;
+        margin-top: 200px;
+    }
+}
+/*@media (min-width: 820px) and (max-width: 850px){
+    .checkoutLayout{
+        margin-left: 23%;
+    }
+}
+@media (min-width: 850px) and (max-width: 900px){
+    .checkoutLayout{
+        margin-left: 24%;
+    }
+}
+@media (min-width: 900px) and (max-width: 950px){
+    .checkoutLayout{
+        margin-left: 25%;
+    }
+}
+@media (min-width: 950px) and (max-width: 999px){
+    .checkoutLayout{
+        margin-left: 26%;
+    }
+}*/
+
+
