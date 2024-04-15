@@ -1,0 +1,271 @@
+
+/*footer*/
+
+#footer {
+    text-align: center;
+    padding: 40px 20px;
+    color: white;
+  } 
+  
+  
+  /*fb insta twitter icons*/
+  .icons {
+    padding: 20px ;
+  }
+  
+  #container1 {
+    margin-top: 30px;
+  }
+  
+  .leftpart {
+    width: 32%; 
+    float: left; 
+    padding: 10px;
+    text-align: center;
+    padding-left: 30px;
+  }
+  
+  .middlepart {
+    width: 35%; 
+    float: left; 
+    padding: 10px;
+    text-align: center;
+    line-height: 2.3;
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .rightpart {
+    width: 32%; 
+    float: left; 
+    padding: 10px;
+    padding-top: 70px;
+    text-align: center;
+  }
+  
+  #getT {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  }
+  
+  #realfooter {
+    text-align: center; 
+    display: block; 
+    clear: both; 
+    padding:20px;
+    background-color: #31363F;
+  }
+  
+  @media screen and (max-width:600px){
+    .leftpart,.middlepart,.rightpart {
+      width: 100%;
+      padding-top: 10px;
+    }
+  }
+  
+  /*copyright*/
+  
+  #p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 2rem;
+    color:#B21D27;
+  }
+  
+  /*Menu buttons last change*/
+  
+  .button-26 {
+    display: block;
+     margin:30px auto ;
+     appearance: button;
+     background-color: #D11637;
+     border: 1px solid #D11637;
+     border-radius: 4px;
+     box-sizing: border-box;
+     color: #FFFFFF;
+     cursor: pointer;
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 1.15;
+     overflow: visible;
+     padding: 25px 40px;
+     position: relative;
+     text-align: center;
+     touch-action: manipulation;
+     width: fit-content;
+   }
+   .button-26:disabled {
+     opacity: .5;
+   }
+   .button-26:focus {
+     outline: 0;
+   }
+   .button-26:hover {
+     opacity: 1;
+     background-color: #B21D27;
+     border-color: #B21D27;
+   }
+   .button-26:active {
+     opacity: 1;
+     background-color: #D11637;
+     border-color: #D11637;
+   }
+   
+  
+  /*footer last change*/
+  
+     .footer{
+      background-color: #FBF9F1;
+      display: grid;
+      grid-template-columns:  1fr 2.3fr 0.7fr ;
+      gap: 2rem;
+  
+      padding: 1rem;
+  }
+  
+  #touch{
+     text-align: center;
+     font-weight: bold;  
+      content: '';
+  }
+  
+  #about_us{
+      text-align: center;
+      font-weight: bold;
+  }
+  
+  .about_us {
+    padding-right: 90px;
+  }
+  
+  @media (max-width:610px) {
+    .about_us {
+      padding-right: 0;
+    }
+  }
+  
+  .media{
+      text-align: center;
+  }
+  
+  #media{
+      text-align: center;
+      font-weight: bold;
+  }
+  
+  .line1 {
+      border-bottom: 2px solid #FF204E; /* Adjust width and color as needed */
+      width:45%; /* Adjust width of the line */
+      margin: auto;
+      margin-bottom: 5%;
+  }
+  
+  .line2 {
+      border-bottom: 2px solid #FF204E; /* Adjust width and color as needed */
+      width: 100%; /* Adjust width of the line */
+      margin: auto;
+  }
+  .line3 {
+      border-bottom: 2px solid #FF204E; /* Adjust width and color as needed */
+      width: 60%; /* Adjust width of the line */
+      margin: auto;
+      
+  }
+  
+  .icon{
+      display: grid;
+      grid-template-columns:  1fr 1fr  ;
+      gap: 0rem;
+  }
+  
+  
+  
+  .copyright{
+  background-color:#FF204E ;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  margin: auto;
+  
+  
+  }
+  #copyright{
+    padding-top: 10px;
+    padding-left: 20px;
+      color: #FBF9F1;
+      font-weight: 800;
+      text-align: center;
+      font-size: 1.2rem;
+      
+      }
+  
+  @media (max-width: 609px) {
+  
+      .footer{
+          background-color: #FBF9F1;
+          display: grid;
+          grid-template-columns:   1fr  ;
+          
+      }
+  }
+  
+  @media (min-width: 610px) and (max-width: 730px) {
+  
+  
+      .media-s{
+          display: grid;
+          grid-template-columns:  1fr 1fr 1fr 1fr  ;
+          gap: 0.5rem;
+          padding-left: 20%;
+          padding-right: 20%;
+          
+      }
+  
+      .media{
+          position: relative;
+          bottom: 10rem;
+          padding-left: 10%;
+          
+      }
+      .space{
+          padding-bottom: 3rem;
+      }
+  
+      .about_us{
+      margin-bottom: 0%;
+      }
+      .touch{
+          margin-bottom: 0%;
+      }
+      
+      .footer{
+          margin-top: 0%;
+          background-color: #FBF9F1;
+          display: grid;
+          grid-template-columns:  1fr 1fr  ;
+          
+      }
+  
+      
+  }
+  
+  @media (min-width: 731px) and (max-width: 991px) {
+  
+    
+  
+      .media-s{
+          display: grid;
+          grid-template-columns:  1fr 1fr  ;
+          text-align: center;
+          padding-left: 20%;
+          padding-right: 20%;
+          
+         
+  }
+  }
+  
+  
+  .gg {
+    padding-right: 15px;
+    padding-bottom: 30px;
+  }
