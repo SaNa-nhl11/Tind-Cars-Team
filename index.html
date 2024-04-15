@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tind Cars</title>
+    
+  <!--font awesome setup-->
+  <script src="https://kit.fontawesome.com/8a5ccf4c59.js" crossorigin="anonymous"></script>
+
+  <!--bootstrap setup for css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!--bootstrap setup for javascript-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+  <!--my css-->
+<link rel="stylesheet" href="css/styles.css">
+
+<!--logo-->
+<link rel="icon" href="imgs/logo5.png">
+
+  <style>
+    .navbar-brand {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.title {
+  color: #FF204E;
+  font-weight: 800; 
+  font-size: 2.7rem;
+}
+ 
+@media (max-width: 642px) {
+  .tindcars { 
+    font-size: 2rem;
+ }
+
+ .icon-logo-2 {
+  width: 100px;
+ }
+
+}
+
+@media (max-width:416px) {
+     .icon-logo-2{
+      display: none;
+     }  
+}
+
+ .menu {
+   min-width: 100px;
+  margin-bottom: 0;
+  margin-left: 25px; 
+  min-width: 150px;
+  }
+ 
+@media (max-width: 991px) {
+ .menu {
+  margin-left: 10px;
+  min-width: 75px;
+}
+ 
+}
+
+.carousel-control-next,.carousel-control-prev  {
+    filter: invert(100%);
+}
+
+.navbar-toggler-icon {
+  filter: invert(100%);
+}
+
+a.navbar-brand:hover {color: #f00 !important;}
+
+  </style>
+  
+</head>
+<body>
+
+     <!--------navbar-------->
+
+      <section id="section" style="position: sticky !important; position: -webkit-sticky ; top: 0; z-index: 1; min-height: 98px;">
+     <nav class="navbar navbar-dark navbar-expand-lg " style="min-height: 98px;">
+
+         <a class="btn btn-outline-danger menu" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" role="button" aria-controls="offcanvasWithBothOptions">Menu</a>
+            
+        <a class="navbar-brand tindcars title" href="#last">Tind Cars <img class="icon-logo-2" src="imgs/logo5.png" alt=""></a>
+
+         <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+       </button>
+
+       <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+         <ul class="navbar-nav ms-auto" style="text-align: end;" >
+            <li class="nav-item ">
+                <a class="nav-link" id="login" href="login.html" style="margin-right: 10px;color: #FF204E; font-size: 1.2rem;"><i class="fa-solid fa-user"></i> Login</a>
+            </li>
+            <li class="nav-item " >
+                <a class="nav-link " id="sign-up" href="signup.html" style="margin-right: 10px; color: #FF204E;font-size: 1.2rem;" ><i class="fa-regular fa-user"></i> sign-up</a>
+            </li>
+         </ul>
+         </div>
+      </nav>
+
+      <!--Menu-->
+      <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header" style="background-color: #FBF9F1;">
+          <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel" style="margin-left: 95px;margin-top: 20px;font-size: 2.5rem;font-weight: 700;">Tind cars</h5>
+           
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+      
+          <div class="offcanvas-body" style="background-color: #FBF9F1;">
+
+            <hr style="margin: 0; margin-bottom: 40px;">
+            <a href="Tind-car - SALAH/Tind-car-2.html"><button class="button-26" role="button">BUY NOW</button></a>
+            <a href="selling.html"><button class="button-26" role="button">SELL NOW</button></a>
+            <a href="mailto:Tind-Cars@gmail.com"><button class="button-26" role="button">Contact Us</button></a>
+            <button class="button-26" role="button" style="width: 180px;">FAQ-Help</button>
+
+      </div>
+    </section>
+
+    <!-----------Home page---------->
+
+
+    <!--First part img and search-->
+
+  
+    <section class="homep">
+
+      <form class="search">
+        <input type="text" id="fname" name="fname" placeholder="Search" class="text" >
+      </form>
+
+      <div style="text-align: center; color: white; position: relative; top: 12%; font-family: serif; ">
+        <h2 class="words word">BUYING OR SELLING A CAR ?</h2>
+        <h1 class="words word2">LET US HELP YOU</h1>
+      </div>
+    </section>
+    
+
+    <!--Second part features-->
+    <h1 style="text-align: center; margin-top: 3%;margin-bottom: 3%; color: black;">Look for your favourite car</h1>
+
+    <section id="features">
+      <div class="row">
+      
+         <div class="col-lg-4">
+          <i class="fa-regular fa-handshake icon1 fa-4x" ></i>
+          <h3>Trusted deals </h3>
+          <p>most secure and safe place to check cars</p>
+         </div>
+   
+         <div class="col-lg-4">
+           <i class="fa-regular fa-credit-card icon1 fa-4x"  ></i>
+           <h3>Pyamenet flexebility</h3>
+           <p>We accept all types of payement cards or digital currency</p>
+         </div>
+   
+         <div class="col-lg-4">
+           <i class="fa-solid fa-car-side icon1 fa-4x" ></i>
+           <h3>Guaranteed statisfiction</h3>
+           <p>various models with various qualities to meet your nead</p>
+         </div>
+   
+       </div>
+    </section>
+
+
+          <!-- third part Car Exemples-->
+
+ <!--bootstrap carousel-->
+
+ <h1 style="text-align: center; margin-top: 3%;margin-bottom: 0; color: black;">Featured Cars</h1>
+
+<section id="Ecars">
+
+  <div class="carousel slide" id="testim">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="Tind-car - SALAH/DETAILS CAR/2023 MERCEDES-BENZ G63 AMG.html"><img class="imgs" src="Tind-car - SALAH/DETAILS CAR/photosof2023 MERCEDES-BENZ G63 AMG/2023 MERCEDES-BENZ G63 AMG-FRONT.avif" alt=""></a>
+        <h2 style="padding-top: 20px;">2023 MERCEDES-BENZ G63 AMG</h2>
+        <h2>price: £150,750</h2>
+     </div>
+
+      <div class="carousel-item">
+        <a href="Tind-car - SALAH/DETAILS CAR/2023 PORSCHE TAYCAN.html"><img class="imgs" src="Tind-car - SALAH/DETAILS CAR/photosof2023 PORSCHE TAYCAN/5G3A2550.avif" alt=""></a>
+          <h2>2023 PORSCHE TAYCAN</h2>
+          <h2>price: €69,000</h2>
+      </div>
+
+      <div class="carousel-item">
+        <a href="Tind-car - SALAH/DETAILS CAR/1989 PORSCHE 911.html"><img class="imgs" src="imgs/car1.avif" alt=""></a>
+          <h2>1989 PORSCHE 911</h2>
+          <h2>price: £27,500</h2>
+      </div>
+
+      <div class="carousel-item">
+        <a href="Tind-car - SALAH/DETAILS CAR/2021 MERCEDES-AMG GT BLACK.html"><img class="imgs" src="Tind-car - SALAH/DETAILS CAR/photosof2021 MERCEDES-AMG GT BLACK/2021 MERCEDES-AMG GT BLACK-FRONT.avif" alt=""></a>
+          <h2>1988 MERCEDES-BENZ GD SWB</h2>
+          <h2>price: $425,000</h2>
+      </div>
+    </div>
+
+    
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#testim" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"  ></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#testim" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</section>
+
+<div class="text-center">
+ <a href="Tind-car - SALAH/Tind-car-2.html"><button type="button" class="btn btn-primary btn-lg" style="padding-left: 3%; padding-right: 3%; margin-right: 3%; ">View all Cars</button></a>
+</div>
+              <!--forth part buy and sell-->
+
+    <!--Buy-->
+
+    <table class="center" >
+      <thead>
+      </thead>
+      <tbody> 
+      <tr> 
+        <td class="td" style="padding: 30px 40px ; "><h1>Buying A New Car ?</h1><br>
+            <p style="font-size: 130%;">Leave the headache to us and focus <br> on what matters, your new ride</p> <br><br><br><br>
+            <a href="Tind-car - SALAH/Tind-car-2.html"><button type="button" class="btn btn-primary">buy a new car  <i class="fa-solid fa-arrow-right" style="padding-left: 15px;"></i> </button></a>
+          </td>
+          <td class="td2 " style="padding: 20px 20px 20px 20px;">
+            <h2><i class="fa-regular fa-face-smile fa-bounce" style="padding-right: 5px;"></i> your smoothest experience</h2>
+            <p>we have made it as easy as possible</p><br>
+
+            <h2><i class="fa-regular fa-circle-check fa-fade"  style="padding-right: 15px;"></i>Your expert advisors</h2>
+            <p>we are with you at every step</p><br>
+
+            <h2><i class="fa-solid fa-shield-halved fa-beat" style="padding-right: 17px;"></i>Your trusted partner</h2>
+            <p>rated 4.8 on google. safe and secure</p>
+          </td>
+  
+</tr>
+
+<!--Sell-->
+<table class="center" >
+  <thead>
+  </thead>
+  <tbody>
+  <tr> 
+      <td class="td01" style="padding: 20px 20px 20px 20px;">
+        <h2><i class="fa-regular fa-face-smile fa-bounce" style="padding-right: 5px;"></i> your smoothest experience</h2>
+        <p>we have made it as easy as possible</p><br>
+
+        <h2><i class="fa-regular fa-circle-check fa-fade"  style="padding-right: 15px;"></i>Your expert advisors</h2>
+        <p >we are with you at every step</p><br>
+
+        <h2><i class="fa-solid fa-shield-halved fa-beat" style="padding-right: 17px;"></i>Your trusted partner</h2>
+        <p>rated 4.8 on google. safe and secure</p>
+      </td>
+
+      <td class="td02" style="padding: 30px 40px ; "><h1>Selling A Used Car ?</h1><br>
+        <p style="font-size: 130%;">We take care of everything, so you can focus <br> on what matters, getting a fair deal.</p> <br><br><br><br>
+        <a href="selling.html"><button type="button" class="btn btn-primary">sell a used car  <i class="fa-solid fa-arrow-right" style="padding-left: 15px;"></i> </button></a> 
+      </td>
+</tr>
+
+<!--idk why but anything directly under a table becomes above it-->
+<table>
+  <thead>
+  </thead>
+  <tbody>
+  <tr> 
+     <td>
+      </td>
+</tr>
+
+         <!--fifth part reviews-->
+      <section id="reviews">
+        <div id="lol" class="carousel slide">
+          <div class="carousel-inner">
+    
+            <div class="carousel-item active">
+              <h2 class="h2">Excellent service by the team, thinking about investing on the website for tesla products</h2>
+              <img src="imgs/gettyimages-1499013102-612x612.jpg" alt="" class="rimg">
+              <em class="em">Elon Musk</em>
+           </div>
+    
+            <div class="carousel-item">
+              <h2 class="h2">One of the best car-related bussiness websites, be sure to use for your next car</h2>
+              <img src="imgs/0x0.jpg" alt="" class="rimg" >
+              <em class="em">Bill Gates</em>
+            </div>
+
+            <div class="carousel-item">
+              <h2 class="h2">I loved the service so much no false informations <!--just false reviews--> and no delays, thanks a lot to tind cars</h2>
+              <img class="rimg" src="imgs/277790911_320782870151855_7190007208160089076_nn.jpg" alt="lady-profile">
+              <em class="em">Random Girl</em>
+            </div>
+
+          </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#lol" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#lol" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    </section>
+    
+              <!--sixth and last part copyright and credits -->
+
+       <section id="Download">
+
+        <h3 id="h3">Get our service right now and find your best Car</h3>
+        <button type="button" class="btn btn-outline-danger"> <i class="fa-brands fa-apple"></i> Download</button>   
+        <button type="button" class="btn btn-outline-success"><i class="fa-brands fa-google-play"></i> Download</button>
+
+      </section>
+
+      <!--Footer-->
+    
+      <div class="footer" style="margin-top: 20px;" id="last">
+
+        <div class="touch">
+            <h4 id="touch">Get in touch</h4>
+            <div class="line1"></div>
+            <div class="touch-s">
+              
+            <ul>
+                <li><a href=""></a><i class="fa-solid fa-location-dot" style="color: #ff204e;"></i> Université Abdelhamid Mehri-Constantine 2</li>
+                <li><a href=""></a><i class="fa-solid fa-phone" style="color: #ff204e;"></i>  0666666666</li>
+                <li><a href=""></a><i class="fa-solid fa-envelope" style="color: #ff204e;"></i>Tind-Cars@ univ-constantine2. dz</li>
+              </ul>
+          
+        </div>
+        </div>
+
+        <div class="about_us" >
+            <h4 id="about_us">ABOUT US</h4>
+            <div class="line2"></div>
+          <div class=" about_us-s"  style="text-align: center;">
+          <div style="font-weight: 700;">
+            <P >tind cars started as a vision for a future where humanity can trade cars in an efficiant easy way
+            (it was our university project) , we are a small team of three young people trying to make a website for the first time with little to no motivation and lazy production</P>
+          </div>
+        
+         <p style=" color: #000000;
+         text-transform: capitalize;
+         padding-top: 1rem;
+         position: relative;
+         font-family: sans-serif;
+         font-size: 20px;
+         font-weight: bold;
+         text-transform: uppercase;">We Hope you liked it <br><i class="fa-solid fa-flag-checkered fa-flip-horizontal fa-lg space" style="color: #ff204e;"></i> </p>
+          </div>
+        </div>
+          <div class="media">
+            <h4 id="media">Social media</h4>
+            <div class="line3"></div>
+            <br>
+            <div class="media-s">
+              <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-xl gg" style="color: #ff204e;"></i></a>
+              <a href="https://twitter.com/?lang=en"><i class="fa-solid fa-xmark fa-xl gg" style="color: #ff204e;"></i></a>
+              <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-xl gg" style="color: #ff204e;"></i></a>
+              <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin fa-xl gg" style="color: #ff204e;"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright"><p id="copyright">© Copyright2024 Tind Cars</p></div>
+
+</body>
+</html>

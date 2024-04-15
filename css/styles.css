@@ -1,0 +1,614 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap");
+
+body {
+    background-color: #E3E3E3;
+}
+
+/*navbar background*/
+#section {
+    background-color: #FBF9F1;   /* ../ represents the parent of the current folder*/
+}
+
+/*navbar brand*/
+
+  .icon-logo-2 {
+    display: inline-block;
+    padding: 0%;
+    margin: 0;
+    width: 150px;
+    height: 70px
+  }
+
+  .title {
+    text-decoration: none;
+    opacity: 1;
+} 
+
+/*to make the navbar responsive*/
+
+@media (min-width: 991px) {   
+  
+.tindcars {
+       position: absolute;
+       left: 39vw;
+  }
+  
+}
+
+@media (max-width: 991px) {
+    .tindcars { 
+       position: static;
+    }
+ }
+
+
+/*menu elements*/
+.divs {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.divs1 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+/*menu links*/
+ .menu-links {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+ }
+
+/*all links*/
+  a:link {
+ 
+    background-color: transparent;
+    text-decoration: none;
+ }
+  
+/*background img*/
+.responsive {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+  }
+  
+/*home page img*/
+  .homep {
+    background-image: url(../imgs/car1.avif); 
+    background-size: cover;
+     background-position: center; 
+     background-repeat: no-repeat; 
+     width: 100%;
+     height:50vw;
+  }
+
+  .word {
+    padding-top: 3%;
+    font-size: 2rem;
+  }
+
+  .word2 {
+    font-size: 2.2rem;
+  }
+
+  .words {
+    margin-left: 20%;
+  }
+
+  @media (max-width:1250px) {
+
+    .word {
+      font-size: 1.6rem !important;
+    }
+  
+    .word2 {
+      font-size: 1.8rem !important;
+    }
+    
+  }
+
+  
+  @media (max-width:1000px) {
+
+    .word {
+      font-size: 1.2rem !important;
+    }
+  
+    .word2 {
+      font-size: 1.4rem !important;
+    }
+    
+  }
+
+  @media (max-width:750px) {
+
+    .word {
+      font-size: 0.8rem !important;
+    }
+  
+    .word2 {
+      font-size: 1rem !important;
+    }
+    
+  }
+
+  @media (max-width:500px) {
+
+    .word {
+      font-size: 0.4rem !important;
+    }
+  
+    .word2 {
+      font-size: 0.6rem !important;
+    }
+    
+  }
+
+
+  .search {
+    width: 250px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    border-radius: 30px;
+    font-size: 1.3rem;
+  }
+
+  @media (max-width:600px) {
+    .search {
+      left: 30%;
+      font-size: 1rem;
+      width: 200px;
+    }
+  }
+
+  /*the team didn't like the search bar sadly*/
+.search{
+  display: none;
+}
+
+  /*search text*/
+  .text {
+    border-radius: 15px;
+    border: 1px #000 solid;
+    text-align: center; 
+    background-color: transparent;
+  }
+
+
+  /* features*/
+  #features {
+    padding:5% 15% ;
+    text-align: center;
+    background-color: #FBF9F1;
+ }
+
+ .icon1 {
+    margin-bottom: 20px;
+    padding: 20px ;
+ }
+
+ .icon1:hover {             /*pseudo class*/
+  color:grey;
+}
+
+/*the slideshow*/
+ #Ecars{
+    padding: 4% 15% 4% 15% ;
+    text-align: center;
+    background-color: #E3E3E3;
+    color: black;
+ }
+
+/*slide show imgs : car exemples*/
+#Ecars > .carousel > .carousel-inner > .carousel-item > a > .imgs {
+  width:80%;
+ }
+
+/*responsive for tablets*/
+@media (max-width: 990px)  {
+  #Ecars > .carousel > .carousel-inner > .carousel-item > a > .imgs {
+    width:100%;
+   }
+
+}
+
+/*table */
+.center {
+    width: 60%;
+    margin: 4% auto 50px auto;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 20px;
+  }
+
+  /*left side*/
+  .td {
+    width:40%;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 20px 0 0 20px;
+    background-color: #BFFF00;
+  }
+
+  /*right side*/
+  .td2 {
+    background-color:#FBF9F1;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 0 20px 20px 0;
+    text-align: center;
+  }
+
+  /*the second table*/
+  /*left side*/
+  .td01 {
+    background-color: #FBF9F1;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 20px 0 0 20px;
+    text-align: center;
+  }  
+ 
+  /*right side*/
+  .td02{
+    background-color: #ff6663;
+    width:43%;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 0 20px 20px 0 ;
+  }
+
+/*responsive for phones table + car exemples*/
+@media (max-width:489px) {
+
+  .td {
+    border-radius:20px;
+  }
+
+  .td2 {
+    display: none;
+  }
+
+  .td01 {
+    display: none;
+  }
+
+  .td02 {
+    border-radius: 20px ;
+  }
+
+  #Ecars > .carousel > .carousel-inner > .carousel-item > a > .imgs {
+    width:100%;
+   }
+
+   .btn {
+    margin-left: 0;
+
+  }
+} 
+
+  /*reviews slidshow*/
+  #reviews {
+    padding: 7% 15% ;
+    text-align: center;
+    background-color: #E3E3E3;
+    color: white;
+}
+
+/*reviews imgs*/
+.rimg {
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 100%; 
+    width:15%;  
+}
+
+@media (max-width: 1237px) {
+  .rimg {
+    width: 25%;
+    margin-left: 100px;
+  }
+}
+
+/*reviews*/
+.h2 {
+  font-size: 150%;
+  color: black;
+}
+
+.em {
+  color: #000;
+}
+
+/*apple indroid*/
+
+#Download {
+  background-color: #FBF9F1;
+  text-align: center;
+  font-family: "Montserrat-Black 900";
+  padding: 70px;
+}
+
+#h3 {
+  font-size: 3rem ;
+  padding-bottom: 30px;
+}
+
+/*buttons*/
+.btn {
+  min-width: 200px;
+
+}
+
+@media (min-width:560px) {
+  .btn {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width:582px ) {
+  .btn {
+    margin-bottom: 20px;
+  }
+}
+
+/*footer*/
+
+#footer {
+  text-align: center;
+  padding: 40px 20px;
+  color: white;
+} 
+
+/*fb insta twitter icons*/
+
+.icons {
+  padding: 20px ;
+}
+
+#container1 {
+  margin-top: 30px;
+}
+
+.leftpart {
+  width: 32%; 
+  float: left; 
+  padding: 10px;
+  text-align: center;
+  padding-left: 30px;
+}
+
+.middlepart {
+  width: 35%; 
+  float: left; 
+  padding: 10px;
+  text-align: center;
+  line-height: 2.3;
+  padding-top:20px;
+  padding-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.rightpart {
+  width: 32%; 
+  float: left; 
+  padding: 10px;
+  padding-top: 70px;
+  text-align: center;
+}
+
+#getT {
+padding-bottom: 10px;
+padding-left: 10px;
+}
+
+#realfooter {
+  text-align: center; 
+  display: block; 
+  clear: both; 
+  padding:20px;
+  background-color: #31363F;
+}
+
+@media screen and (max-width:600px){
+  .leftpart,.middlepart,.rightpart {
+    width: 100%;
+    padding-top: 10px;
+  }
+}
+
+/*Menu buttons last change*/
+
+.button-26 {
+  display: block;
+   margin:30px auto ;
+   appearance: button;
+   background-color: #D11637;
+   border: 1px solid #D11637;
+   border-radius: 4px;
+   box-sizing: border-box;
+   color: #FFFFFF;
+   cursor: pointer;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 1.15;
+   overflow: visible;
+   padding: 25px 40px;
+   position: relative;
+   text-align: center;
+   touch-action: manipulation;
+   width: fit-content;
+ }
+ .button-26:disabled {
+   opacity: .5;
+ }
+ .button-26:focus {
+   outline: 0;
+ }
+ .button-26:hover {
+   opacity: 1;
+   background-color: #B21D27;
+   border-color: #B21D27;
+ }
+ .button-26:active {
+   opacity: 1;
+   background-color: #D11637;
+   border-color: #D11637;
+ }
+
+/*footer last change*/
+
+   .footer{
+    background-color: #FBF9F1;
+    display: grid;
+    grid-template-columns:  1fr 2.3fr 0.7fr ;
+    gap: 2rem;
+
+    padding: 1rem;
+}
+
+#touch{
+   text-align: center;
+   font-weight: bold;  
+	content: '';
+}
+
+#about_us{
+    text-align: center;
+    font-weight: bold;
+}
+
+.about_us {
+  padding-right: 90px;
+}
+
+@media (max-width:610px) {
+  .about_us {
+    padding-right: 0;
+  }
+}
+
+.media{
+    text-align: center;
+}
+
+#media{
+    text-align: center;
+    font-weight: bold;
+}
+
+.line1 {
+    border-bottom: 2px solid #FF204E; /* Adjust width and color as needed */
+    width:45%; /* Adjust width of the line */
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.line2 {
+    border-bottom: 2px solid #FF204E; /* Adjust width and color as needed */
+    width: 100%; /* Adjust width of the line */
+    margin: auto;
+}
+.line3 {
+    border-bottom: 2px solid #FF204E; /* Adjust width and color as needed */
+    width: 60%; /* Adjust width of the line */
+    margin: auto;
+    
+}
+
+.icon{
+    display: grid;
+    grid-template-columns:  1fr 1fr  ;
+    gap: 0rem;
+}
+
+.copyright{
+background-color:#FF204E ;
+padding-bottom: 0.5rem;
+text-align: center;
+margin: auto;
+
+
+}
+#copyright{
+  padding-top: 10px;
+  padding-left: 20px;
+    color: #FBF9F1;
+    font-weight: 800;
+    text-align: center;
+    font-size: 1.2rem;
+    
+    }
+
+@media (max-width: 609px) {
+
+    .footer{
+        background-color: #FBF9F1;
+        display: grid;
+        grid-template-columns:   1fr  ;
+        
+    }
+}
+
+@media (min-width: 610px) and (max-width: 730px) {
+
+
+    .media-s{
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr 1fr  ;
+        gap: 0.5rem;
+        padding-left: 20%;
+        padding-right: 20%;
+        
+    }
+
+    .media{
+        position: relative;
+        bottom: 10rem;
+        padding-left: 10%;
+        
+    }
+    .space{
+        padding-bottom: 3rem;
+    }
+
+    .about_us{
+    margin-bottom: 0%;
+    }
+    .touch{
+        margin-bottom: 0%;
+    }
+    
+    .footer{
+        margin-top: 0%;
+        background-color: #FBF9F1;
+        display: grid;
+        grid-template-columns:  1fr 1fr  ;
+        
+    }
+
+    
+}
+
+@media (min-width: 731px) and (max-width: 991px) {
+
+  
+
+    .media-s{
+        display: grid;
+        grid-template-columns:  1fr 1fr  ;
+        text-align: center;
+        padding-left: 20%;
+        padding-right: 20%;
+        
+       
+}
+}
+
+.gg {
+  padding-right: 15px;
+  padding-bottom: 30px;
+}
