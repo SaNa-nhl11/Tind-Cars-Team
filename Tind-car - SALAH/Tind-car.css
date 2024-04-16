@@ -284,10 +284,10 @@ body {
 .btn37{
   display: inline-block;
     justify-content: center;
-    background-color: var(--main-color);
+    background-color:var(--second-color) ;
     border-radius: 6.25rem;
     box-sizing: border-box;
-    color: var(--second-color);/*text-color*/
+    color: var(--main-color);/*text-color*/
     font-weight: 800;
     display:grid;
     height: 2.7rem;
